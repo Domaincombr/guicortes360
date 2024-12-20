@@ -1,0 +1,772 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    width: 100vw;
+    height: 30px;
+    background-color: transparent;
+}
+body{
+    background-color: #5e442e;
+    /* background-color: #b49d8a; */
+    overflow-x: hidden;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+    min-height: 1200px;
+    /* border: 2px solid red; */
+    background-color: #5e442e;
+}
+
+.tellgeral{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid blue; */
+    background-image: url(../img/pexels-ej-agumbay-698816-8552626.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.imgicon{
+    width: 300px;
+    height: 300px;
+    background-color:transparent;
+    background-image: url(../img/caveiralogo.png);
+    background-size: 76%;
+    background-position: center;
+
+    background-repeat: no-repeat;
+}
+.imgitxt{
+    position: relative;
+    top: 10px;
+    width: 30%;
+    height: 300px;
+    /* border: 2px solid #002643; */
+   background-image: url(../img/SPACE\ MUSIC\ \(1\)\ \(1\).png);
+   background-size: 130%;
+background-repeat: no-repeat;
+   background-position:center;
+
+}
+.txtarea{
+    position: relative;
+    top: 20px;
+    width: 80%;
+    height: 200px;
+    /* border: 2px solid green; */
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.telausers{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 900px;
+    background-color: #5e442e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divtitle{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c8c2bc;
+    margin-bottom: 20px;
+}
+
+.inputcss{
+    width: 40%;
+    height: 60px;
+    border: 4px solid #c8c2bc;
+    color: #c8c2bc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+    outline: none;
+    font-weight: 800;
+    background-color: transparent;
+    padding-left: 20px;
+    
+}   
+
+
+.teledeagendamento{
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    top: 1300px;
+    /* border: 2px solid red; */
+    background-color: #5e442e;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.anuncioconteier{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+   
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.tellanu{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.slicss{
+    min-width: 100%;
+    height: auto;
+}
+
+.bt{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #c8c2bc;
+    border: none;
+    border-radius: 100%;
+    font-size: 70px;
+    padding: 10px;
+    z-index: 999;
+    cursor: pointer;
+    
+}
+
+.bt:hover{
+ 
+    color: #5e442e;
+}
+.bt.left{
+    left: 10px;
+    
+}
+
+.bt.right{
+    right: 10px;
+   
+}
+.barraino{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 120px;
+    /* background: linear-gradient(to left top,#aea7a3,#000); */
+    background-image: url(/img/pexels-ej-agumbay-698816-8552626.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cebbba;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.teleservico{
+    position: relative;
+    top: 35px;
+    width: 90%;
+    min-height: 500px;
+    height: auto;
+    /* border: 2px solid #42adff; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.servi{
+position: relative;
+width: 300px;
+height:300px;
+background-color: transparent;
+border: 3px solid #c8c2bc;
+box-shadow: 0px 0px 30px #5e442e;
+margin: 10px;
+left: 10px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+border-radius: 20px 0px 20px 0px;
+transition: transform 0.3s;
+}
+
+.servi:hover{
+    transform: scale(1.1);
+}
+
+.serviicon{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    /* background-color: red; */
+    top: 20px;
+    /* border: 2px solid #0091ff; */
+    border-radius: 11px;
+ 
+}
+.icon1{
+    background-image: url(../img/pexels-cottonbro-3998415.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.icon2{
+    background-image: url(../img/pexels-cottonbro-3998427.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.servtitle{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c8c2bc;
+    
+    font-size: 26px;
+    top: 60px;
+    font-weight: 900;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.telacorte{
+    position: fixed;
+    width: 30%;
+    height: 400px;
+    top: 20px;
+    background-color: #c8c2bc;
+    left: -9999px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.telacortevem{
+    position: fixed;
+    width: 30%;
+    height: 400px;
+    top: 20px;
+    background-color: #c8c2bc;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    animation: telacortevem 0.8s ;
+}
+@keyframes telacortevem{
+    from{
+        left: -9999px;
+    }
+    to{
+        left: 50%;
+    }
+}
+.telacortesai{
+    position: fixed;
+    width: 30%;
+    height: 400px;
+    top: 20px;
+    background-color: #c8c2bc;
+    left: -9999px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    animation: telacortesai  0.8s ;
+}
+@keyframes telacortesai{
+    from{
+        left: 50%;
+    }
+    to{
+        left: -9999px;
+    }
+}
+
+.btfechar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c8c2bc;
+    /* border: 2px solid red; */
+    left: 460px;
+    cursor: pointer;
+}
+
+.camporselwect{
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: #5e442e;
+    color: #c8c2bc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 90%;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.labecss{
+    position: relative;
+    font-size: 20px;
+    color: #5e442e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    left: 0px;
+    top: 20px;
+}
+
+.btsenvi{
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: #5e442e;
+    color: #c8c2bc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 60%;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition:transform 0.2s ease;
+}
+
+.btsenvi:active{
+    background-color: #5e442e;
+    border: 4px solid greenyellow;
+    transform: scale(1.1);
+}
+
+#mensagemalaert{
+    position: absolute;
+    width: 12%;
+    height: 40px;
+    z-index: 444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    left: 7%;
+    top: 10px;
+    transform: translate(-50%);
+    /* border: 2px solid #fff; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (min-width:320px) and (max-width:720px){
+    .tellgeral{
+        position: relative;
+        width: 100%;
+        height: auto;
+        /* border: 2px solid blue; */
+        background-image: url(../img/pexels-ej-agumbay-698816-8552626.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .imgicon{
+        width: 200px;
+        height: 200px;
+        background-color: transparent;
+        background-image: url(../img/caveiralogo.png);
+        background-size: 70%;
+        background-position: center;
+        /* border: 2px solid #fff; */
+        background-repeat: no-repeat;
+    }
+    .imgitxt{
+        position: relative;
+        top:0px;
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid #0091ff; */
+       background-image: url(../img/SPACE\ MUSIC\ \(1\)\ \(1\).png);
+       background-size: 110%;
+    background-repeat: no-repeat;
+       background-position:center;
+    
+    }
+    .txtarea{
+        position: relative;
+        top: 13px;
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid green; */
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .telausers{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 780px;
+        background-color: #5e442e;
+        /* border: 2px solid #fff; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .divtitle{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #c8c2bc;
+        margin-bottom: 20px;
+    }
+    
+    .inputcss{
+        width: 90%;
+        height: 60px;
+        border: 4px solid #c8c2bc;
+        color: #c8c2bc;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        border-radius: 20px;
+        outline: none;
+        font-weight: 500;
+        background-color: transparent;
+        padding-left: 20px;
+        
+    
+}
+
+
+.teledeagendamento{
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    top: 1300px;
+    /* border: 2px solid #fff; */
+    background-color: #5e442e;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.anuncio{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+
+.barraino{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 120px;
+    /* background: linear-gradient(to left top,#aea7a3,#000); */
+    background-image: url(../img/pexels-ej-agumbay-698816-8552626.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cebbba;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.teleservico{
+    position: relative;
+    top: 60px;
+    width: 90%;
+    min-height: 500px;
+    height: auto;
+    /* border: 2px solid #42adff; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.servi{
+position: relative;
+width: 280px;
+height:280px;
+background-color: transparent;
+border: 8px solid #c8c2bc;
+margin: 10px;
+left: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+border-radius: 20px 0px 20px 0px;
+transition: transform 0.3s;
+}
+
+.serviicon{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    /* background-color: red; */
+    top: 20px;
+ 
+}
+.servtitle{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c8c2bc;
+   
+    font-size: 26px;
+    top: 60px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+
+
+.telacorte{
+    position: fixed;
+    width: 90%;
+    height: 400px;
+    top: 20px;
+    background-color: #c8c2bc;
+    left: -9999px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.telacortevem{
+    position: fixed;
+    width: 90%;
+    height: 400px;
+    top: 20px;
+    background-color: #c8c2bc;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    animation: telacortevem 0.8s ;
+}
+@keyframes telacortevem{
+    from{
+        left: -9999px;
+    }
+    to{
+        left: 50%;
+    }
+}
+.telacortesai{
+    position: fixed;
+    width: 90%;
+    height: 400px;
+    top: 20px;
+    background-color: #c8c2bc;
+    left: -9999px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    animation: telacortesai  0.8s ;
+}
+@keyframes telacortesai{
+    from{
+        left: 50%;
+    }
+    to{
+        left: -9999px;
+    }
+}
+
+.btfechar{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c8c2bc;
+    /* border: 2px solid red; */
+    left: 50%;
+    top: 450px;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.camporselwect{
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: #5e442e;
+    color: #c8c2bc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 90%;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.labecss{
+    position: relative;
+    font-size: 20px;
+    color: #5e442e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    left: 0px;
+    top: 20px;
+}
+
+.btsenvi{
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: #5e442e;
+    color: #c8c2bc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 60%;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.anuncioconteier{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: 190px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.tellanu{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.slicss{
+    min-width: 100%;
+    height: auto;
+}
+
+.bt{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    font-size: 30px;
+    padding: 10px;
+    z-index: 999;
+}
+
+.bt.left{
+    left: 10px;
+}
+
+.bt.right{
+    right: 10px;
+   
+}
+
+
+#mensagemalaert{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    z-index: 444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    left: 50%;
+    top: 415px;
+    transform: translate(-50%);
+    /* border: 2px solid #fff; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}

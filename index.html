@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./img/SPACE MUSIC (1) (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Gui do corte</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+
+        <div id="mensagemalaert"></div>
+        
+        <div class="tellgeral">
+            <div class="imgicon"></div>
+            <div class="imgitxt"></div>
+            <div class="txtarea">Quer garantir seu visual perfeito? Agende agora seu horário no Gui do Corte! Simples, rápido e sem complicações. Transforme seu estilo hoje mesmo!</div>
+        </div>
+
+<form id="agendamentouser">
+        <div class="telausers">
+            <div class="divtitle">QUAL É SEU NOME?</div>
+            <input type="text" class="inputcss" required id="nomedocliente">
+            <p style="color: #c8c2bc; margin-top: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; text-align: center;">INSIRA SEU NOME PARA PROCEGUIR COM O AGENDAMENTO</p>
+        </div>
+
+        <div class="teledeagendamento">
+            <div class="anuncioconteier">
+                <button class="bt left" onclick="previouws() " type="button">&#10094;</button>
+
+                <div class="tellanu">
+                    <img src="../img/pexels-ej-agumbay-698816-8552626.jpg" alt="ima1" class="slicss">
+
+                    <img src="../img/pexels-cottonbro-3998415.jpg" alt="ima2" class="slicss">
+
+                    <img src="../img/pexels-cottonbro-3998427.jpg " alt="ima3" class="slicss">
+                </div>
+
+                <button class="bt right" onclick="nextpreviouws()" type="button">&#10095;</button>
+            </div>
+
+            <div class="barraino">SERVIÇOS</div>
+
+            <div class="teleservico">
+                <div class="servi" onclick="ativaagendamento()">
+                    <div class="serviicon icon1"></div>
+                    <div class="servtitle">CORTE</div>
+                </div>
+
+                <div class="servi" >
+                    <div class="serviicon icon2"></div>
+                    <div class="servtitle">BARBA</div>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="telacorte" id="telecortefunciton">
+            <div class="btfechar" onclick="ativaagendamento()"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+              </svg></div>
+            
+            <label for="corte" class="labecss">SELECIONE SEU CORTE</label>
+            <select name="corte" id="corte" class="camporselwect">
+                <option value="CORTE SOCIAL">CORTE SOCIAL</option>
+                <option value="CORTE DEGRADE">CORTE DEGRADE</option>
+                <option value="CORTE EM CAMADAS">CORTE EM CAMADAS</option>
+                <option value="BOB CUT">BOB CUT</option>
+                <option value="CORTES EM V">CORTES EM V</option>
+                <option value="FRANJA LATERAL">FRANJA LATERAL</option>
+             
+
+            </select>
+            <label for="horario" class="labecss">MARQUE O HORAIO</label>
+            <select name="horario" id="horario" class="camporselwect" required>
+            
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+         
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+            </select >
+            
+            <label for="datadoagendamento" class="labecss">MARQUE A DATA</label>
+            <input type="date" placeholder="DATA"  class="camporselwect" id="datadoagendamento">
+    
+            <button type="submit" class="btsenvi">AGENDAR</button>
+        </div>
+    </form>
+    </main>
+    
+
+
+    <footer>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
